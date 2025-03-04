@@ -6,8 +6,8 @@ from datetime import datetime
 import io
 
 # Set page title and description
-st.title("PDF Bill Data Extractor")
-st.write("Upload your PDF bills to extract and compile the data")
+st.title("DTE Solar PDF Uploader!")
+st.write("Upload your DTE PDFs (all at once for a given meter) and press upload! It will give you back a spreadsheet in the ESPM format.")
 
 def convert_to_float(value_str):
     """Convert string to float by removing commas and handling other characters."""
